@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - laravel-elixir > gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T04:47:39.305Z'
+    - lodash:
+        patched: '2020-05-01T04:47:39.305Z'
+    - laravel-elixir-webpack-official > lodash:
+        patched: '2020-05-01T04:47:39.305Z'
+    - laravel-elixir > gulp-shell > lodash:
+        patched: '2020-05-01T04:47:39.305Z'
+    - laravel-elixir-vue-2 > sass-loader > async > lodash:
+        patched: '2020-05-01T04:47:39.305Z'
+    - laravel-elixir > gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2020-05-01T04:47:39.305Z'
+    - laravel-elixir-webpack-official > webpack > watchpack > async > lodash:
+        patched: '2020-05-01T04:47:39.305Z'
